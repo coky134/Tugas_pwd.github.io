@@ -82,4 +82,14 @@ img{
     background-color: rgb(250, 202, 143);
     color: black;
 }
-
+.tombol-index a {
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 25px;
+}
+.tombol-index a:hover{
+    background-color: rgb(250, 202, 143);
+    color: black;
+}
