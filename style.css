@@ -1,1 +1,85 @@
-/*belum sempat melakukan penulisan di css ini karena malas*/
+*{
+    padding: 0;
+    margin: 0;
+}
+table,td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.nama{
+    text-align: center;
+}
+h3{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: sans-serif;
+}
+h1:hover{
+    color: rgba(68, 68, 68, 0.868);
+}
+p{
+    font-family: 'Courier New', monospace;
+}
+.quot{
+    text-align: center;
+}
+body{
+    background-color:rgb(218, 178, 127);
+}
+img{
+    cursor: pointer;
+    width: 5cm;
+    box-shadow: 1px 1px 1px black;
+    background: white;
+    transform: 0.1s;
+    opacity: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tombol-media a{
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 4px;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    
+}
+.tombol-media a:hover{
+    background-color: rgba(68, 68, 68, 0.868);
+}
+
+.tombol-tugas a {
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 25px;
+    
+}
+.tombol-tugas a:hover{
+    background-color: rgb(250, 202, 143);
+    color: black;
+}
+
