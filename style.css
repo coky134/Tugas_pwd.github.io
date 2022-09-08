@@ -2,13 +2,19 @@
     padding: 0;
     margin: 0;
 }
-table,td, th{
-    border: 1px solid black;
+td, th{
+    border: 2px solid black;
     text-align: center;
     padding: 10px;
     border-collapse: collapse;
+    cursor: pointer;
 }
-
+td:hover{
+    background-color:  rgb(181, 121, 43);
+}
+th:hover{
+    background-color:  rgb(181, 121, 43);
+}
 a{
     text-decoration: none;
     color: white;
@@ -76,6 +82,10 @@ img{
     padding: 12px 25px;
     border-radius: 8px;
     margin: 25px;
+    display: block;
+    margin-left: 2%;
+    margin-right: 84%;
+    text-align: center;
     
 }
 .tombol-tugas a:hover{
@@ -92,4 +102,16 @@ img{
 .tombol-index a:hover{
     background-color: rgb(250, 202, 143);
     color: black;
+}
+.judul{
+    text-align: center;
+    margin-top: 20px;
+}
+.kepala-tabel{
+    background-color:rgb(201, 142, 65);   
+}
+.tabel{
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 32px;
 }
