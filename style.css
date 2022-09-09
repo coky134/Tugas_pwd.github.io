@@ -28,6 +28,9 @@ h3{
     transition: 0.2s;
     font-family: sans-serif;
 }
+h3:hover{
+    color: rgba(68, 68, 68, 0.868);
+}
 h1{
     color: white;
     cursor: pointer;
