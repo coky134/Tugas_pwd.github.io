@@ -1,55 +1,53 @@
-*{
+/* penulis script Rizky hidayattullah */
+* {
     padding: 0;
     margin: 0;
 }
-td, th{
-    border: 2px solid black;
-    text-align: center;
-    padding: 10px;
-    border-collapse: collapse;
-    cursor: pointer;
-}
-td:hover{
-    background-color:  rgb(181, 121, 43);
-}
-th:hover{
-    background-color:  rgb(181, 121, 43);
-}
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.nama{
+
+.nama {
     text-align: center;
 }
-h3{
+
+h3 {
     color: white;
     cursor: pointer;
     transition: 0.2s;
     font-family: sans-serif;
 }
-h3:hover{
+
+h3:hover {
     color: rgba(68, 68, 68, 0.868);
 }
-h1{
+
+h1 {
     color: white;
     cursor: pointer;
     transition: 0.2s;
     font-family: sans-serif;
 }
-h1:hover{
+
+h1:hover {
     color: rgba(68, 68, 68, 0.868);
 }
-p{
+
+p {
     font-family: 'Courier New', monospace;
 }
-.quot{
+
+.quot {
     text-align: center;
 }
-body{
-    background-color:rgb(218, 178, 127);
+
+body {
+    background-color: rgb(218, 178, 127);
 }
-img{
+
+img {
     cursor: pointer;
     width: 5cm;
     box-shadow: 1px 1px 1px black;
@@ -62,8 +60,8 @@ img{
     margin-right: auto;
 
 }
-
-.tombol-media a{
+/* bagian tombol */
+.tombol-media a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
     padding: 12px 25px;
@@ -73,9 +71,10 @@ img{
     margin-left: 40%;
     margin-right: 40%;
     text-align: center;
-    
+
 }
-.tombol-media a:hover{
+
+.tombol-media a:hover {
     background-color: rgba(68, 68, 68, 0.868);
 }
 
@@ -89,12 +88,14 @@ img{
     margin-left: 2%;
     margin-right: 84%;
     text-align: center;
-    
+
 }
-.tombol-tugas a:hover{
+
+.tombol-tugas a:hover {
     background-color: rgb(250, 202, 143);
     color: black;
 }
+
 .tombol-index a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
@@ -102,19 +103,44 @@ img{
     border-radius: 8px;
     margin: 25px;
 }
-.tombol-index a:hover{
+
+.tombol-index a:hover {
     background-color: rgb(250, 202, 143);
     color: black;
 }
-.judul{
+/* akhir bagian tombol */
+
+/* bagian tabel */
+.judul {
     text-align: center;
     margin-top: 20px;
 }
-.kepala-tabel{
-    background-color:rgb(201, 142, 65);   
+
+.kepala-tabel {
+    background-color: rgb(201, 142, 65);
 }
-.tabel{
+
+.tabel {
     border-collapse: collapse;
     width: 95%;
     margin-left: 32px;
 }
+
+td,
+th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgb(181, 121, 43);
+}
+
+th:hover {
+    background-color: rgb(181, 121, 43);
+}
+
+/* bagian akhir tabel */
