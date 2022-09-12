@@ -11,6 +11,7 @@ a {
 
 .nama {
     text-align: center;
+    margin-top: 20px;
 }
 
 h3 {
@@ -64,21 +65,32 @@ img {
 .tombol-media a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
-    padding: 12px 25px;
+    padding: 8px 25px;
     border-radius: 8px;
     margin: 4px;
-    display: block;
-    margin-left: 40%;
-    margin-right: 40%;
-    text-align: center;
-
+    display: flex;
+    margin-left: 35%;
+    margin-right: 35%;
+    
 }
-
+/* .tombol-media a{
+    margin: 40px;
+    width: 100%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 20;
+    text-align: center;
+} */
 .tombol-media a:hover {
     background-color: rgba(68, 68, 68, 0.868);
 }
 
-.tombol-tugas a {
+/* .tombol-tugas a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
     padding: 12px 25px;
@@ -88,9 +100,15 @@ img {
     margin-left: 2%;
     margin-right: 84%;
     text-align: center;
-
+} */
+.tombol-tugas a {
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    margin: 31px;
+    
 }
-
 .tombol-tugas a:hover {
     background-color: rgb(250, 202, 143);
     color: black;
@@ -124,6 +142,7 @@ img {
     border-collapse: collapse;
     width: 95%;
     margin-left: 32px;
+    
 }
 
 td,
