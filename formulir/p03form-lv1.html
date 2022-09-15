@@ -11,6 +11,29 @@
         img{
             width: 100%;
         }
+        .tombol-ke-index a{
+            text-decoration: none;
+            color: black;
+            background-color: rgb(231, 231, 231);
+            font-size: 20px;
+            padding: 5px 25px;
+            border-radius: 8px;
+        }
+        .tombol-ke-index a:hover{
+            background-color: rgb(161, 161, 161);
+        }
+
+        .tombol-kirim a{
+            text-decoration: none;
+            color: black;
+            background-color: rgb(231, 231, 231);
+            font-size: 20px;
+            padding: 5px 25px;
+            border-radius: 8px;
+        }
+        .tombol-kirim a:hover{
+            background-color: rgb(161, 161, 161);
+        }
     </style>
 
 
@@ -225,15 +248,19 @@
             </tbody>
         </table>
     </fieldset>
+
+    <!-- tabel salasa -->
     <fieldset>
         <legend><b>PENDIDIKAN TERAKHIR</b></legend>
         <table>
             <tbody>
+                <!-- lulusan sekulah -->
             <tr>
                 <th align="left" valign="top">Asal SMA/SMK/Perguruan Tinggi</th>
                 <td valign="top">:</td>
-                <td valign="top"><input type="text" name="asal_sekolah" maxlength="14"></td>
+                <td valign="top"><input type="text" maxlength="14"></td>
             </tr>
+
             <tr>
                 <th align="left">Status Sekolah/Perguruan Tinggi</th>
                 <td valign="top">:</td>
@@ -246,15 +273,14 @@
                     </select>
                 </td>
             </tr>
+            <!-- jurusan pas sekulah -->
             <tr>
-
                 <th align="left">Jurusan</th>
                 <td>:</td>
-                <td><input type="text" name="jurusan" maxlength="14"></td>
+                <td><input type="text"  maxlength="14"></td>
             </tr>
-            
+            <!-- taggal lulus -->
             <tr>
-
                 <th align="left">Tanggal Lulus</th>
                 <td>:</td>
                 <td><input type="date" name="tgl_lulus"></td>
@@ -262,11 +288,11 @@
         </tbody>
     </table>
     </fieldset>
-
-    <table align="right">
+    <!-- tanda tangan dulu yahh bos-->
+    <table>
         <tbody>
         <tr>
-            <td align="center">Ttd</td>
+            <td>Ttd</td>
         </tr>
         <tr>
             <td>Cirebon, <input type="date" name="tgl_ttd"></td>
@@ -279,9 +305,15 @@
         </tr>
     </tbody>
 </table>
-<br><br><br>
-<div class="tombol-tugas">
+<br>
+<div class="tombol-kirim ">
+    <a href="kirim.html">Kirim</a>
+</div>
+<!-- bagian kembali ke index -->
+<br><br>
+</body>
+<div class="tombol-ke-index">
     <a href="../index.html">Formulir</a>
   </div>
-</body>
+<br><br>
 </html>
