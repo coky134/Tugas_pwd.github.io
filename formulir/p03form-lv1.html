@@ -34,6 +34,13 @@
         .tombol-kirim a:hover{
             background-color: rgb(161, 161, 161);
         }
+        legend{
+            font-weight: bold;
+            font-size: 32px;
+        }
+        td{
+            font-weight: bold;
+        }
     </style>
 
 
@@ -54,7 +61,7 @@
         <!-- tabel wahid  -->
         <!-- data diri dulu boss -->
         <FIeldset>
-            <LEgend>data calon mahasiswa</LEgend>
+            <LEgend>DATA CALON MASASISWA</LEgend>
             <table cellpadding="5" border="0" cellspacing="0">
                 <!-- aran lengkap -->
                 <tr>
@@ -213,7 +220,7 @@
                 <tr>
                     <th align="left">Kota</th>
                     <td>:</td>
-                    <td><input type="text" name="kota" maxlength="6"></td>
+                    <td><input type="text" name="kota" maxlength="15"></td>
                 </tr>
                 <!-- wis kesuwun -->
 
@@ -258,7 +265,7 @@
             <tr>
                 <th align="left" valign="top">Asal SMA/SMK/Perguruan Tinggi</th>
                 <td valign="top">:</td>
-                <td valign="top"><input type="text" maxlength="14"></td>
+                <td valign="top"><input type="text" maxlength="20"></td>
             </tr>
 
             <tr>
@@ -266,7 +273,7 @@
                 <td valign="top">:</td>
                 <td valign="top">
                     <select name="status_sekolah">
-                        <option value=""></option>
+                        <option value="">Pilih</option>
                         <option value="Negeri">Negeri</option>
                         <option value="Swasta">Swasta</option>
                         <option value="Luar Negeri">Luar Negeri</option>
