@@ -71,7 +71,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 /* bagian tombol */
 .tombol-media a {
@@ -113,6 +112,7 @@ img {
     margin-right: 84%;
     text-align: center;
 } */
+
 .tombol-tugas a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
