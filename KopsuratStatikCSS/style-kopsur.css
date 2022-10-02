@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+.pembungkus-surat{
+    width: 100%;
+    border: 1px solid#ccc;
+    max-width: 21cm;
+    max-height: 29cm;
+    margin: auto;
+    padding: 1cm 1cm 1cm 1cm;
+    background-color: white;
+}
