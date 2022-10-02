@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+.link{
+    color: blue;
+}
+.logi{
+    width: 85px;
+    height: 85px;
+    margin-left: 30px;
+}
+.surat{
+    width: 800px;
+    padding: 17px;
+    height: 800px;
+    background-color: white;
+    margin: 0 auto;
+}
+h1{
+    font-size: 10px;
+    margin-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.kopsur{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+/* stmik ikmi cireon */
+.bagian-STMIK{
+    display: flex;
+}
+.p-stmik{
+    line-height: 40px;
+    font-size: 65px;
+    letter-spacing: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+.p-IKMI{
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: blue;
+}
+.p-Kota{
+    line-height: 29px;
+    font-size: 18px;
+    initial-letter: 3px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* akhir stmik ikmi cirebon */
+
+/* bagian alamat */
+.alamat-kampus{
+    margin-top: 0px;
+    font-size: 10px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.alamat-kmps{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.alamat-kampus div{
+    letter-spacing: 1px;
+}
+/* akhir alamat */
+
+/* awal sk akreditasi */
+.sk-terakreditasi{
+    display: flex;
+    width: 90%;
+    margin-left: 37px;
+}
+.sk{
+    background-color: rgb(203, 0, 0);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+.terakreditasi{
+    background-color: rgb(99, 228, 0);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+/* akhir */
+
+.judul-surat{
+    text-align: center;
+    margin-top: 15px;
+}
+.judul{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* tombol kembali */
+.tombol-index a {
+    background-color: rgb(218, 218, 218);
+    color: black;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 680px;
+    text-decoration: none;
+}
+
+.tombol-index a:hover {
+    background-color: rgb(204, 204, 204);
+    color: white;
+}
