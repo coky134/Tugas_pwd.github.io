@@ -1,0 +1,43 @@
+/* nafbar Spa menu */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(201, 142, 65);
+    border: 3px solid white;
+    border-radius: 4px;
+} 
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 8px 28px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+li a:hover{
+    transform: scale(1.1);
+    background-color:  rgb(181, 124, 51);
+}
+/* akhir nafbar */
+h1 , p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.cuax{
+    clear: both;
+}
+.menu{
+    background-color: rgb(201, 142, 65);
+    border: 1px solid white;
+    padding: 2px;
+    display: none;
+    color: black;
+    border-radius: 6px;
+} 
+.slide{
+    background-color:rgb(181, 124, 51);
+}

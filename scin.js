@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $(".tombol1").click(function(){
+        $(".isi1").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $(".tombol2").click(function(){
+        $(".isi2").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $(".tombol3").click(function(){
+        $(".isi3").slideToggle("slow");
+    });
+});

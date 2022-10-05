@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JQdelete.js"></script>
     <title>Tabel</title>
 </head>
 
@@ -26,27 +27,27 @@
             <tr id="br_1" class="br">
                 <td class="data" id="mhs_1">Arif Khotibul ummam</td>
                 <td class="data" id="alamat_1">Cirebon</td>
-                <td class="hapus baris" id="hapus_1">delete</td>
+                <td class="data top1" id="hapus_1">Hapus</td>
             </tr>   
             <tr id="br_2" class="br">
                 <td class="data" id="mhs_2">Arbi Adi Muharam</td>
                 <td class="data" id="alamat_2">Majalengka</td>
-                <td class="hapus baris" id="hapus_2" >delete</td>
+                <td class="data baris" id="hapus_2" >Hapus</td>
             </tr>
             <tr id="br_3" class="br">
                 <td class="data" id="mhs_3">Madyanto</td>
                 <td class="data" id="alamat_3">Indramayu</td>
-                <td class="hapus baris" id="hapus_3" >delete</td>
+                <td class="data baris" id="hapus_3" >Hapus</td>
             </tr>
             <tr id="br_4" class="br">
                 <td class="data" id="mhs_4">Rizki Ramdani</td>
                 <td class="data" id="alamat_4">Ciamis</td>
-                <td class="hapus baris" id="hapus_4">delete</td>
+                <td class="data baris" id="hapus_4">Hapus</td>
             </tr>
             <tr id="br_5" class="br">
                 <td class="data" id="mhs_5">Erinna astia dewi</td>
                 <td class="data" id="alamat_5">majalengka</td>
-                <td class="hapus baris "id="hapus_5">delete</td>
+                <td class="data baris "id="hapus_5">Hapus</td>
             </tr>
         </body>
 
@@ -58,27 +59,6 @@
     </div>
     <!-- tutup tombol -->
     <!-- script JsQuery fadeOut-->
-    <script>
-        // alert(0)
-        $(document).ready(function(){
-            $('.data').click(function(){
-                let isi = $(this).text();
-                let tid = $(this).prop('id');
-                let rid = tid.split('_');
-                let id_br = rid[1];
-                let mhs_ = $('#mhs_'+id_br).text();
-
-                if (isi=='delete'){
-                    let yakin = confirm('Yakin mau di hapus ${mhs}??');
-                    if (!konfirmasi) return;
-
-                    $('#br_'+id_br).fadeOut();
-                }else{
-                    alert("anda mengklik kolom yang berisi " +$(this).html() +"!");
-                }
-            })
-        })
-    </script>
 </body>
 
 </html>

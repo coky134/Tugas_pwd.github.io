@@ -73,6 +73,8 @@ img {
     margin-right: auto;
 }
 /* bagian tombol */
+
+
 .tombol-media a {
     background-color: rgb(201, 142, 65);
     font-size: 20px;
@@ -82,36 +84,11 @@ img {
     display: flex;
     margin-left: 35%;
     margin-right: 35%;
-    
 }
-/* .tombol-media a{
-    margin: 40px;
-    width: 100%;
-    display: block;
-    outline: none;
-    padding: 10px 0;
-    border: 1px solid #fff;
-    cursor: pointer;
-    background: transparent;
-    color: #fff;
-    font-size: 20;
-    text-align: center;
-} */
+
 .tombol-media a:hover {
     background-color: rgba(68, 68, 68, 0.868);
 }
-
-/* .tombol-tugas a {
-    background-color: rgb(201, 142, 65);
-    font-size: 20px;
-    padding: 12px 25px;
-    border-radius: 8px;
-    margin: 25px;
-    display: block;
-    margin-left: 2%;
-    margin-right: 84%;
-    text-align: center;
-} */
 
 .tombol-tugas a {
     background-color: rgb(201, 142, 65);
@@ -138,6 +115,93 @@ img {
     background-color: rgb(250, 202, 143);
     color: black;
 }
+/* tombol js slide */
+.p-tombol{
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.tombol1{
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.tombol1:hover{
+    background-color: rgb(217, 154, 82);
+}
+.isi1{
+    border-radius: 8px ;
+    background-color: rgb(245, 192, 132);
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,2);
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    
+}
+.tombol2{
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.tombol2:hover{
+    background-color: rgb(217, 154, 82);
+}
+.isi2{
+    border-radius: 8px ;
+    background-color: rgb(245, 192, 132);
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,2);
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    
+}
+.tombol3{
+    background-color: rgb(201, 142, 65);
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.tombol3:hover{
+    background-color: rgb(217, 154, 82);
+}
+.isi3{
+    border-radius: 8px ;
+    background-color: rgb(245, 192, 132);
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,2);
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    
+}
+/* akhir tombol js slid */
 /* akhir bagian tombol */
 
 /* bagian tabel */
