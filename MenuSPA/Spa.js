@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $(".pilih").click(function(){
         let id = $(this).prop('id');
@@ -16,5 +15,4 @@ $(document).ready(function(){
         $("#isi_4").slideUp();
         $("#isi_"+id_menu).slideToggle();
     });
-});
-            
+});          
