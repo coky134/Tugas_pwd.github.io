@@ -50,7 +50,7 @@ body {
 
 img {
     cursor: pointer;
-    width: 5cm;
+    width: 4cm;
     box-shadow: 1px 1px 1px black;
     background: white;
     transform: 0.1s;
@@ -119,8 +119,11 @@ h2 , p{
 
 
 
-/* isi dari data diri */
+/*  dari data diri */
 .pro, .med{
     margin-left: 20px;
     font-family: 'Courier New', monospace;
+}
+.isi-tugas{
+    list-style: none;
 }
