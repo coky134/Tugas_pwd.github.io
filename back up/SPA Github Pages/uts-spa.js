@@ -13,6 +13,7 @@ $(document).ready(function(){
         $("#isi_2").slideUp();
         $("#isi_3").slideUp();
         $("#isi_4").slideUp();
+        $("#isi_5").slideUp();
         $("#isi_"+id_menu).slideToggle();
     });
 });          
